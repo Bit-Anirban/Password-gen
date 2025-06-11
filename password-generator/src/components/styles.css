@@ -1,0 +1,88 @@
+/* Container styling */
+div {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Title */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Text area for password display */
+.text-for-pass-gen {
+    margin-bottom: 20px;
+}
+
+.text-for-pass-gen textarea {
+    width: 70%;
+    height: 40px;
+    font-size: 16px;
+    padding: 10px;
+    resize: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+/* Generate button */
+.text-for-pass-gen button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.text-for-pass-gen button:hover {
+    background-color: #45a049;
+}
+
+/* Checkboxes */
+.sp-num {
+    margin-bottom: 20px;
+}
+
+.sp-num label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Length controls */
+.length {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.length button {
+    padding: 5px 15px;
+    font-size: 18px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.length button:hover {
+    background-color: #0b7dda;
+}
+
+.length textarea {
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    resize: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
